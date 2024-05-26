@@ -40,3 +40,20 @@ HTML 코드 영역에서 1번 박스 영역인 div를 **드래그**해서 2번 �
 HTML 코드에서 특정 요소를 우클릭 후 Scroll into View 선택 시 해당 요소의 위치로 페이지가 이동.
 
 ## Break Point
+Element에 Break point를 지정해서 DOM에 아래 변화가 일어나는지 감지할 수 있다.
+1. Subtree Modifications - Element 의 하위 DOM Tree 의 변경
+> 하위 목록 수정됨을 통해 break point를 걸어주면, 해당 부분의 수정이 일어나는 시점에 break를 걸어 어떤 코드가 지정한 부분을 수정하려고 하는지 보여준다 (소스 탭) 
+2. Attribute Modifications - Element 의 속성 변경
+> 1번과는 다르게 색상 수정의 경우 1번 방식을 적용하면 break가 걸리지 않는다. 해당 코드의 속성(값)에 변경이 있을 때는 속성 변경 감지를 통해 break point를 설정해야 감지가 가능하다.
+3. Node Removal - Element 의 삭제
+![image](https://github.com/SAMEZ-0129/FE_Dev_Tool/assets/81644075/74bf8b08-d2c4-4a1d-b2e8-6f208aa2b943)
+
+하위 목록 수정됨을 통해 break point를 걸어주면, 해당 부분의 수정이 일어나는 시점에 break를 걸어 어떤 코드가 지정한 부분을 수정하려고 하는지 보여준다 (소스 탭)
+
+## Event Listeners
+각각의 속성에 설정되어 있는 이벤트 핸들러를 확인할 수 있습니다.
+![image](https://github.com/SAMEZ-0129/FE_Dev_Tool/assets/81644075/b0706bcf-c3fd-417c-9c86-87687ccf9ee5)
+
+강의와는 다르게 최신 Safari 버전에서는 소스코드와 '노드' 탭에서 이벤트 리스너 확인이 가능함.
+
+상위(부모) Element에 걸린 이벤트 리스너 확인도 같은 노드 탭에서 아래로 스크롤하면 확인이 가능. (대상:div.item 같이 이벤트가 적용된 부분 확인)
