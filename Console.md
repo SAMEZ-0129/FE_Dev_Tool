@@ -42,3 +42,4 @@
 1. console.trace를 통해 콜스택 정보/위치 확인 가능함.
 2. console.time() 과 console.timeEnd() 사이에 구동 시간을 측정하는 코드를 삽입하면 수행시간을 출력할 수 있다.
 3. console.count()를 통해 동일한 문자열 key 이 몇번 수행되었는지를 누적하여 알려준다.
+
