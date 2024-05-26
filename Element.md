@@ -1,5 +1,5 @@
-## 개발자 도구 열기
-1. Element 탭 (요소 탭)
+# 개발자 도구 열기
+## Element 탭 (요소 탭)
 ![image](https://github.com/SAMEZ-0129/FE_Dev_Tool/assets/81644075/715fe3fe-8647-4f07-a8ca-60291157c667)
 
 - Element 탭에서 왼쪽 부분은 HTML의 MarkUp을 보거나 직접 수정해서 반영된 내용을 볼 수 있는 부분입니다.(Text Editor같이)
@@ -38,3 +38,5 @@ HTML 코드 영역에서 1번 박스 영역인 div를 **드래그**해서 2번 �
 
 ### Scroll Into View
 HTML 코드에서 특정 요소를 우클릭 후 Scroll into View 선택 시 해당 요소의 위치로 페이지가 이동.
+
+## Break Point
